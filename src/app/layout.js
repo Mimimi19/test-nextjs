@@ -11,7 +11,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <header>
+          <h1 class = "titel">ネクストJSの練習</h1>
+        </header>
+        {children}
+        </body>
     </html>
   );
 }

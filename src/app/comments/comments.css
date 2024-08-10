@@ -1,0 +1,24 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .resizable-textarea {
+    width: 300px;
+    resize: none; /* Disable manual resizing */
+    overflow: hidden; /* Hide scrollbars */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 14px;
+  }
+  
